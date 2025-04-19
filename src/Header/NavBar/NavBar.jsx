@@ -14,8 +14,8 @@ export default class NavBar extends Component {
 
             {/* menu */}
             <ul className="flex items-center md:gap-x-7 lg:gap-x-14 text-white md:text-[18px] lg:text-2xl">
-                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative hover:underline hover:underline-offset-4'>Home</a></li>
-                <li className=""><a href="#" className='flex items-center gap-1 hover:text-green-500 transition duration-300 relative hover:underline hover:underline-offset-4'>
+                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative '>Home</a></li>
+                <li className=""><a href="#" className='flex items-center gap-1 hover:text-green-500 transition duration-300 relative'>
                     <span>Plants Types</span>
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
@@ -23,8 +23,8 @@ export default class NavBar extends Component {
                         </svg>
                     </span>
                 </a></li>
-                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative hover:underline hover:underline-offset-4'>More</a></li>
-                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative hover:underline hover:underline-offset-4'>Contact</a></li>
+                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative '>More</a></li>
+                <li className=""><a href="#" className='hover:text-green-500 transition duration-300 relative '>Contact</a></li>
             </ul>
 
             {/* sections icon search , basket , bars */}
