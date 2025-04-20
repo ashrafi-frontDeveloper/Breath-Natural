@@ -7,7 +7,7 @@ function Menu() {
         <li className="relative group">
     <a href="#" className='flex items-center gap-1 hover:text-green-500 transition duration-300'>
     <span>Plants Types</span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
+    <svg  width="12" height="6" viewBox="0 0 12 6" fill="none">
         <path d="M6 6L0.803848 0.75L11.1962 0.749999L6 6Z" fill="white" />
     </svg>
     </a>
@@ -49,7 +49,7 @@ function MobileMenu({ isOpen, onClose }) {
       <div className={`fixed inset-0 bg-emerald-950 bg-opacity-50 backdrop-blur-sm transition-opacity duration-300 z-40 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}onClick={onClose}/>
         <div className={`fixed top-0 right-0 h-full w-64 bg-white/30 backdrop-blur-md shadow-lg rounded-xl p-6 z-50 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <button className="mb-4 text-white" onClick={onClose}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <svg  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
         </button>
@@ -57,7 +57,7 @@ function MobileMenu({ isOpen, onClose }) {
           <li>
             <a href="#" className='flex items-center gap-x-2 text-white font-bold'>
                 Home 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#fff" className="size-4">
+                <svg  viewBox="0 0 16 16" fill="#fff" className="size-4">
     <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z" />
                 </svg>
             </a>
@@ -66,7 +66,7 @@ function MobileMenu({ isOpen, onClose }) {
             <a href="#" className='flex items-center gap-1 text-white font-bold hover:text-green-500 transition duration-300 relative'>
                 <span>Plants Types</span>
                 <span className="transform group-hover:rotate-180 transition duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
+                <svg  width="12" height="6" viewBox="0 0 12 6" fill="none">
                     <path d="M6 6L0.803848 0.75L11.1962 0.749999L6 6Z" fill="white"/>
                 </svg>
                 </span>
@@ -94,7 +94,7 @@ function MobileMenu({ isOpen, onClose }) {
           <li>
             <a href="#" className='flex items-center gap-x-2 text-white font-bold'>
                 Contact
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4">
+                <svg viewBox="0 0 16 16" fill="currentColor" className="size-4">
     <path d="M1 8.74c0 .983.713 1.825 1.69 1.943.904.108 1.817.19 2.737.243.363.02.688.231.85.556l1.052 2.103a.75.75 0 0 0 1.342 0l1.052-2.103c.162-.325.487-.535.85-.556.92-.053 1.833-.134 2.738-.243.976-.118 1.689-.96 1.689-1.942V4.259c0-.982-.713-1.824-1.69-1.942a44.45 44.45 0 0 0-10.62 0C1.712 2.435 1 3.277 1 4.26v4.482Z" />
                 </svg>
             </a>
@@ -102,7 +102,7 @@ function MobileMenu({ isOpen, onClose }) {
           <li>
             <a href="#" className='flex items-center gap-x-2 text-white font-bold'>
             About
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4">
+            <svg viewBox="0 0 16 16" fill="currentColor" className="size-4">
   <path fillRule="evenodd" d="m3.855 7.286 1.067-.534a1 1 0 0 0 .542-1.046l-.44-2.858A1 1 0 0 0 4.036 2H3a1 1 0 0 0-1 1v2c0 .709.082 1.4.238 2.062a9.012 9.012 0 0 0 6.7 6.7A9.024 9.024 0 0 0 11 14h2a1 1 0 0 0 1-1v-1.036a1 1 0 0 0-.848-.988l-2.858-.44a1 1 0 0 0-1.046.542l-.534 1.067a7.52 7.52 0 0 1-4.86-4.859Z" clipRule="evenodd" />
             </svg>
             </a>
@@ -133,15 +133,15 @@ export default function NavBar() {
             <form action="" className='flex gap-x-2'>
                 <input type="text" placeholder="Typing ..." className="text-white px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"/>
                 <a href="#" className='hover:scale-110 transition duration-300'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
+                    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
                 </a>
             </form>
             <a href="#" className='hover:scale-110 transition duration-300'>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                </svg>
+            <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+</svg>
             </a>
         </div>
       </nav>
@@ -158,20 +158,20 @@ export default function NavBar() {
             <form action="" className='flex gap-x-2'>
                 <input type="text" placeholder="Typing ..." className="hidden sm:block text-white px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"/>
                 <a href="#" className='hover:scale-110 transition duration-300'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
+                    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
                 </a>
             </form>
             {/* Basket Icon */}
             <a href="#" className='hover:scale-110 transition duration-300'>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-    </svg>
+            <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+</svg>
             </a>
           {/* Humberger menu */}
           <button onClick={() => setMenuOpen(true)} href="#" className='hover:scale-110 transition duration-300'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
+            <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
             </svg>
           </button>

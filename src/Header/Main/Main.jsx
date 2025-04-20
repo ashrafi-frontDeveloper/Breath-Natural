@@ -1,6 +1,25 @@
 import React, { Component } from 'react'
 
 export default class Main extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = [
+      {id: 1 , title: "Trendy House Plant" , sunTitle: "Calathea plant", img: 'image/main-header/img1.png'},
+      {id: 2 , title: "Trendy House Plant" , sunTitle: "Cactus plant", img: 'image/main-header/img2.png'},
+      {id: 3 , title: "Trendy House Plant" , sunTitle: "Bamboo plant", img: 'image/main-header/img3.png'},
+      {id: 4 , title: "Trendy House Plant" , sunTitle: "Orchid plant", img: 'image/main-header/img4.png'},
+      {id: 5 , title: "Trendy House Plant" , sunTitle: "Snake plant", img: 'image/main-header/img5.png'},
+      {id: 6 , title: "Trendy House Plant" , sunTitle: "Ablia plant", img: 'image/main-header/img6.png'},
+    ]
+
+
+  }
+
+  clickHandler () {
+    console.log(this);
+    
+  }
 
   render() {
     return (
@@ -28,7 +47,7 @@ export default class Main extends Component {
               </div>
 
               {/* arrow-left */}
-              <button className='mb-4'>
+              <button onClick={this.clickHandler.bind(this)} className='mb-4 cursor-pointer'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="size-6">
     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
