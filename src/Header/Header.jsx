@@ -10,7 +10,7 @@ export default class Header extends Component {
           {/* Component */}
           <NavBar></NavBar>
           <Main></Main>
-      </header>
+        </header>
       
     )
   }
