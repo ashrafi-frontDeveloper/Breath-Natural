@@ -32,6 +32,27 @@ export default class Main extends Component {
 
     return (
           <section className='container pt-14 mx-auto hidden md:flex items-center justify-between'>
+            {/* title web site */}
+            <div className='text-white'>
+                {/* title */}
+                <h1 className="text-8xl font-bold">Breath Natureal</h1>
+                {/* sub title */}
+                <p className="text-2xl">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                {/* explore */}
+                <div className="flex items-center gap-x-10 mt-10">
+                  <button className='border border-white py-3 px-10 rounded-2xl hover:bg-white hover:text-green-600 transition-all'>Explore</button>
+                  <button className='flex items-center gap-x-4'>
+                    <a href="#" className='border border-white rounded-full p-4 hover:bg-white hover:text-green-600 transition-all'>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                        <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                      </svg>
+                    </a>
+                    <span className='text-2xl'>Live Demo...</span>
+                  </button>
+                </div>
+            </div>
 
             {/* Buy now */}
             <div className="relative flex flex-col items-center justify-end w-[300px] h-[356px] mt-12 rounded-[40px] bg-white/10 border-l border-r border-white backdrop-blur-md p-6 shadow-lg">
