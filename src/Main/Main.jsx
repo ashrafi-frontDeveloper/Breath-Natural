@@ -7,12 +7,12 @@ import Trendy from './SectionTrendy/Trendy'
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <main className='bg-emerald-900'>
+        {/* <Trendy></Trendy> 
         <Customer></Customer>
         <BestO2></BestO2>
-        <TopSelling></TopSelling>
-        <Trendy></Trendy>
-      </div>
+        <TopSelling></TopSelling> */}
+      </main>
     )
   }
 }

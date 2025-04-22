@@ -5,31 +5,31 @@ function Menu() {
       <ul className="flex items-center md:gap-x-7 lg:gap-x-10 text-white md:text-[18px] lg:text-2xl">
         {/* Plants Types dropdown */}
         <li className="relative group">
-    <a href="#" className='flex items-center gap-1 hover:text-green-500 transition duration-300'>
-    <span>Plants Types</span>
-    <svg  width="12" height="6" viewBox="0 0 12 6" fill="none">
-        <path d="M6 6L0.803848 0.75L11.1962 0.749999L6 6Z" fill="white" />
-    </svg>
-    </a>
+        <a href="#" className='flex items-center gap-1 hover:text-green-500 transition duration-300'>
+          <span>Plants Types</span>
+          <svg  width="12" height="6" viewBox="0 0 12 6" fill="none">
+              <path d="M6 6L0.803848 0.75L11.1962 0.749999L6 6Z" fill="white" />
+          </svg>
+        </a>
 
-    {/* Dropdown */}
-    <ul className="absolute top-full left-0 mt-0.5 hidden group-hover:flex flex-col bg-green-800 text-white rounded-xl shadow-2xl w-48 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-    <li>
-        <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition rounded-t-xl">
-        <span>🌵</span> <span>Cactus</span>
-        </a>
-    </li>
-    <li>
-        <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition">
-        <span>🍄</span> <span>Mushroom</span>
-        </a>
-    </li>
-    <li>
-        <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition rounded-b-xl">
-        <span>🌴</span> <span>Tropical</span>
-        </a>
-    </li>
-    </ul>
+        {/* Dropdown */}
+        <ul className="absolute top-full left-0 mt-0.5 hidden group-hover:flex flex-col bg-green-800 text-white rounded-xl shadow-2xl w-48 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <li>
+            <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition rounded-t-xl">
+            <span>🌵</span> <span>Cactus</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition">
+            <span>🍄</span> <span>Mushroom</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-green-700 transition rounded-b-xl">
+            <span>🌴</span> <span>Tropical</span>
+            </a>
+        </li>
+        </ul>
         </li>
         {["About", "Contact", "Home"].map((item, index) => (
           <li key={index}>
@@ -119,7 +119,7 @@ export default function NavBar() {
   return (
     <div>
       {/* Desktop Navbar */}
-      <nav data-aos="fade-down" className='container pt-14 mx-auto hidden md:flex items-center justify-between'>
+      <nav data-aos="fade-down" className='relative z-[999] pt-14 mx-auto hidden md:flex items-center justify-between'>
         {/* Logo */}
         <div className='flex items-center text-white gap-x-1.5 lg:gap-x-3.5 text-[18px] lg:text-2xl'>
           <img className='lg:w-12 w-7 lg:h-12 h-7' src="/public/svg/navbar/plant.svg" alt="logo" />

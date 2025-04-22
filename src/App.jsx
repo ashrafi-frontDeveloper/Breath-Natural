@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header/Header'
-import Main from './Header/Main/Main'
+// import Main from './Header/Main/Main'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css'

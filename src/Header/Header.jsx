@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar/NavBar'
-import Main from './Main/Main'
+import Main from './MainHeader/Main'
 
 export default class Header extends Component {
   render() {
