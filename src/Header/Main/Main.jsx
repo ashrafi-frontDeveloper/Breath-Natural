@@ -37,7 +37,7 @@ export default class Main extends Component {
                 {/* title */}
                 <div>
                   {/* title */}
-                  <h1 className="text-5xl lg:text-6xl xl:text-8xl mb-4 font-bold">Breath Natureal</h1>
+                  <h1 className="text-5xl lg:text-6xl xl:text-8xl mb-4 font-bold">Breathe Natureal</h1>
                   {/* sub title */}
                   <p className="md:w-[500px] text-base lg:text-[18px] xl:text-2xl">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -57,7 +57,7 @@ export default class Main extends Component {
                 </div>
 
                 {/* customer */}
-                <div className="flex items-center justify-center md:justify-start mt-10 md:mt-0">
+                <div data-aos="fade-right" className="flex items-center justify-center md:justify-start mt-10 md:mt-0">
                   <div className=" relative flex md:flex-col items-center  w-80 md:w-96 xl:w-[400px] h-56 xl:h-[256px] mb-10 mt-16 xl:mt-12 rounded-[40px] bg-white/5 border-l border-r border-white backdrop-blur-md pt-10 xl:p-6 shadow-lg">
                     <div className=" absolute top-10 flex flex-col items-center justify-center text-center space-y-4">
                       {/* Profile Info */}
@@ -91,7 +91,7 @@ export default class Main extends Component {
             </div>
 
             {/* Buy cart */}
-            <div className="flex justify-center md:justify-end mt-10 md:mt-0">
+            <div data-aos="fade-left" className="flex justify-center md:justify-end mt-10 md:mt-0">
               {/*  Buy cart */}
               <div className="relative flex md:flex-col items-center justify-center md:justify-end w-60 xl:w-[300px] h-72 xl:h-[356px] mt-16 xl:mt-12 rounded-[40px] bg-white/5 border-l border-r border-white backdrop-blur-md pt-10 xl:p-6 shadow-lg">
                 
@@ -127,7 +127,7 @@ export default class Main extends Component {
 
 
 
-    </section>
+          </section>
 
     )
   }
