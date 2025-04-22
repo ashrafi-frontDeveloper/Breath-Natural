@@ -37,13 +37,13 @@ export default class Main extends Component {
                 {/* title */}
                 <div>
                   {/* title */}
-                  <h1 className="text-5xl lg:text-6xl xl:text-8xl mb-4 font-bold">Breathe Natureal</h1>
+                  <h1 data-aos="fade-down" className="text-5xl lg:text-6xl xl:text-8xl mb-4 font-bold">Breathe Natureal</h1>
                   {/* sub title */}
-                  <p className="md:w-[500px] text-base lg:text-[18px] xl:text-2xl">
+                  <p data-aos="fade-down" className="md:w-[500px] text-base lg:text-[18px] xl:text-2xl">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                   {/* explore */}
-                  <div className="flex items-center justify-center md:justify-start gap-x-3.5 lg:gap-x-6 xl:gap-x-10 mt-3.5 lg:mt-6 xl:mt-10">
+                  <div data-aos="fade-right" className="flex items-center justify-center md:justify-start gap-x-3.5 lg:gap-x-6 xl:gap-x-10 mt-3.5 lg:mt-6 xl:mt-10">
                     <button className='border border-white py-1 lg:py-1.5 xl:py-3 px-4 lg:px-7 xl:px-10 rounded-2xl hover:bg-white hover:text-green-600 transition-all'>Explore</button>
                     <button className='flex items-center gap-x-4'>
                       <a href="#" className='border border-white rounded-full p-1.5 lg:p-2 xl:p-4 hover:bg-white hover:text-green-600 transition-all'>
