@@ -119,7 +119,7 @@ export default function NavBar() {
   return (
     <div>
       {/* Desktop Navbar */}
-      <nav data-aos="fade-down" className='relative z-[999] pt-14 mx-auto hidden md:flex items-center justify-between'>
+      <nav data-aos="fade-down" className=' container mx-auto relative z-[999] pt-14 hidden md:flex items-center justify-between'>
         {/* Logo */}
         <div className='flex items-center text-white gap-x-1.5 lg:gap-x-3.5 text-[18px] lg:text-2xl'>
           <img className='lg:w-12 w-7 lg:h-12 h-7' src="/public/svg/navbar/plant.svg" alt="logo" />
@@ -156,7 +156,7 @@ export default function NavBar() {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className='container pt-14 mx-auto flex items-center justify-between md:hidden'>
+      <nav className='container mx-auto pt-14 flex items-center justify-between md:hidden'>
         <div className='flex items-center text-white gap-x-1.5 text-[18px] lg:text-2xl'>
           <img className='lg:w-12 w-7 lg:h-12 h-7' src="/public/svg/navbar/plant.svg" alt="logo" />
           <span className='font-bold font-inter text-base'>Planto.</span>

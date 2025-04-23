@@ -40,7 +40,7 @@ export default class Main extends Component {
                   <h1 data-aos="fade-down" className="text-5xl lg:text-6xl xl:text-8xl mb-4 font-bold">Breathe Natureal</h1>
                   {/* sub title */}
                   <p data-aos="fade-down" className="md:w-[500px] text-base lg:text-[18px] xl:text-2xl">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Lorem  incididunt ut labore et dolore magna aliqua.
                   </p>
                   {/* explore */}
                   <div data-aos="fade-right" className="flex items-center justify-center md:justify-start gap-x-3.5 lg:gap-x-6 xl:gap-x-10 mt-3.5 lg:mt-6 xl:mt-10">

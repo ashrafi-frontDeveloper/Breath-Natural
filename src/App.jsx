@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header/Header'
-// import Main from './Header/Main/Main'
+import Main from './Main/Main';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css'
@@ -16,9 +16,9 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className=' relative'>
         <Header></Header>
-        {/* <Main></Main> */}
+        <Main></Main>
       </div>
     )
   }
