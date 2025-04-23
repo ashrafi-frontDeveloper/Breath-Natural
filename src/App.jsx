@@ -12,11 +12,12 @@ export default class App extends Component {
     AOS.init({
       duration: 1000,
       once: true,
+
     });
   }
   render() {
     return (
-      <div className=' relative'>
+      <div className=''>
         <Header></Header>
         <Main></Main>
       </div>
