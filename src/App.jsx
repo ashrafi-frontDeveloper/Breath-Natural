@@ -17,7 +17,7 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div className=''>
+      <div className='bg-[#131d13]'>
         <Header></Header>
         <Main></Main>
       </div>
