@@ -26,8 +26,7 @@ Breath Natural is a modern, responsive website focused on showcasing different t
 ---
 
 ## 📷 Screenshots
-
-![Homepage Screenshot](Screen-demo-project.png)
+![Image](Screen-demo-project.png)
 
 ---
 
