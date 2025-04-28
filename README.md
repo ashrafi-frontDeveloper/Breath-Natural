@@ -30,7 +30,7 @@ Breath Natural is a modern, responsive website focused on showcasing different t
 *Add screenshots here to showcase your project.*
 
 ```markdown
-![Homepage Screenshot](/public/Screen-demo-project.png)
+![Homepage Screenshot](./public/Screen-demo-project.png)
 ```
 
 ---
