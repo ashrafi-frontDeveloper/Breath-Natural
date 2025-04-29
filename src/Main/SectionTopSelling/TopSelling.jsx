@@ -7,12 +7,12 @@ export default class TopSelling extends Component {
 
     this.state = {
       products: [
-        {id: 1, title: 'Calathea plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '359', img: '/public/image/main-header/img1.png'},
-        {id: 2, title: 'Cactos plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '559', img: '/public/image/main-header/img2.png'},
-        {id: 3, title: 'Almond  plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '759', img: '/public/image/main-header/img3.png'},
-        {id: 4, title: 'Amaranth  plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '659', img: '/public/image/main-header/img4.png'},
-        {id: 5, title: 'Ambrosia plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '1359', img: '/public/image/main-header/img5.png'},
-        {id: 6, title: 'Alder plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '959', img: '/public/image/main-header/img6.png'},
+        {id: 1, title: 'Calathea plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '359', img: '/Breath-Natural/image/main-header/img1.png'},
+        {id: 2, title: 'Cactos plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '559', img: '/Breath-Natural/image/main-header/img2.png'},
+        {id: 3, title: 'Almond  plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '759', img: '/Breath-Natural/image/main-header/img3.png'},
+        {id: 4, title: 'Amaranth  plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '659', img: '/Breath-Natural/image/main-header/img4.png'},
+        {id: 5, title: 'Ambrosia plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '1359', img: '/Breath-Natural/image/main-header/img5.png'},
+        {id: 6, title: 'Alder plant', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '959', img: '/Breath-Natural/image/main-header/img6.png'},
       ]
     }
   }

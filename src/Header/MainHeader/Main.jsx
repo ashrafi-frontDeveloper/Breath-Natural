@@ -9,8 +9,8 @@ export default class Main extends Component {
     this.state = {
       currentIndex: 0,
       plants: [
-        { id: 1, title: "Trendy House Plant", sunTitle: "Calathea plant", img: "image/main-header/img1.png" },
-        { id: 2, title: "Trendy House Plant", sunTitle: "Cactus plant", img: "image/main-header/img2.png" },
+        { id: 1, title: "Trendy House Plant", sunTitle: "Calathea plant", img: "./image/main-header/img1.png" },
+        { id: 2, title: "Trendy House Plant", sunTitle: "Cactus plant", img: "./image/main-header/img2.png" },
         { id: 3, title: "Trendy House Plant", sunTitle: "Bamboo plant", img: "image/main-header/img3.png" },
         { id: 4, title: "Trendy House Plant", sunTitle: "Orchid plant", img: "image/main-header/img4.png" },
         { id: 5, title: "Trendy House Plant", sunTitle: "Snake plant", img: "image/main-header/img5.png" },

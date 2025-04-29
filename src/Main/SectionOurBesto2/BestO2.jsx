@@ -6,8 +6,8 @@ export default class BestO2 extends Component {
     this.state = {
       currentIndex: 0,
       products: [
-        { id: 1, title: 'We Have Small And Best O2 Plants Collection’s', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum', img: '/BestO2/1.png' },
-        { id: 2, title: 'We Have Small And Best O2 Plants Collection’s', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum', img: '/BestO2/2.png' }
+        { id: 1, title: 'We Have Small And Best O2 Plants Collection’s', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum', img: '/Breath-Natural/BestO2/1.png' },
+        { id: 2, title: 'We Have Small And Best O2 Plants Collection’s', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum', img: '/Breath-Natural/BestO2/2.png' }
       ]
     }
   }
