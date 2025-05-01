@@ -9,7 +9,7 @@ export default class Footer extends Component {
                 {/* Logo and Description */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left mb-5">
                 <div className="flex items-center gap-x-4 mb-4">
-                    <img src="/Breath-Natural/svg/navbar/plant.svg" alt="Logo" className="w-12 h-12" />
+                    <img src={`${import.meta.env.BASE_URL}svg/navbar/plant.svg`} alt="Logo" className="w-12 h-12" />
                     <h2 className="text-2xl font-bold">Planto.</h2>
                 </div>
                 <p className="text-gray-300 text-sm mb-6 max-w-xs">

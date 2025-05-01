@@ -7,9 +7,9 @@ export default class Customer extends Component {
 
     this.state = {
       customers: [
-        {id: 1, name: 'Maxn Raval', comment: 'Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet, consectetur adipisicing adipisicing.', profile: '/Breath-Natural/image/main-header/profile-header.png'},
-        {id: 2, name: 'venely k', comment: 'Lorem ipsum dolor sit amet, consectetur adipiLorem ipsum dolor sit amet, consectetur adipisicingsicing.', profile: '/Breath-Natural/image/main-header/profile-header.png'},
-        {id: 3, name: 'Maycle vic', comment: 'Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consectetur adipisicingectetur adipisicing.', profile: '/Breath-Natural/image/main-header/profile-header.png'}
+        {id: 1, name: 'Maxn Raval', comment: 'Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet, consectetur adipisicing adipisicing.', profile: `${import.meta.env.BASE_URL}image/main-header/profile-header.png`},
+        {id: 2, name: 'venely k', comment: 'Lorem ipsum dolor sit amet, consectetur adipiLorem ipsum dolor sit amet, consectetur adipisicingsicing.', profile: `${import.meta.env.BASE_URL}image/main-header/profile-header.png`},
+        {id: 3, name: 'Maycle vic', comment: 'Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consectetur adipisicingectetur adipisicing.', profile: `${import.meta.env.BASE_URL}image/main-header/profile-header.png`}
       ]
     }
   }

@@ -13,7 +13,7 @@ export default class Trendy extends Component {
             <div data-aos="fade-up" className="flex flex-col md:flex-row items-center md:justify-between w-[90%] max-w-[380px] md:max-w-3xl lg:max-w-5xl xl:max-w-7xl h-auto md:h-[356px] backdrop-blur-md bg-white/5 mx-auto mt-30 md:mt-30 rounded-[40px] md:rounded-[120px] p-4 md:p-8">
                 {/* image */}
                 <div className="w-full mb-0 flex justify-center">
-                    <img src="/Breath-Natural/image/main-header/img2.png" alt="" className="w-[240px] md:w-auto" />
+                    <img src={`${import.meta.env.BASE_URL}image/main-header/img2.png`} alt="" className="w-[240px] md:w-auto" />
                 </div>
 
                 {/* content */}
@@ -75,7 +75,7 @@ export default class Trendy extends Component {
 
                 {/* image */}
                 <div className="w-full mb-0 flex justify-center order-1 md:order-2">
-                    <img src="/Breath-Natural/image/main-header/img6.png" alt="" className="w-[240px] md:w-auto" />
+                    <img src={`${import.meta.env.BASE_URL}image/main-header/img2.png`} alt="" className="w-[240px] md:w-auto" />
                 </div>
             </div>
 
